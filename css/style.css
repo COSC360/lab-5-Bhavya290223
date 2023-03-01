@@ -1,0 +1,47 @@
+caption {
+    background-color: darkcyan;
+}
+
+td, th {
+    background-color: lightgrey;
+    padding: 0.4em;
+    text-align: center;
+    border-right: solid grey 0.1em;
+    border-bottom: solid grey 0.1em;
+}
+
+thead {
+    font-size: small;
+}
+
+a {
+    color: lightseagreen;
+}
+
+tfoot a {
+    color: brown;
+}
+
+td:hover {
+    background-color: red;
+}
+
+form {
+    background-color: tan;
+    display: inline-block;
+    margin: 0 35%;
+}
+
+#today {
+    background-color: cyan;
+}
+
+table {
+  margin: auto;
+}
+
+.hoverNode {
+    border: solid 0.1em black;
+    margin: 0em 0.2em;
+    background-color: yellow;
+}

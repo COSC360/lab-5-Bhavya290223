@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>February 2023</caption>
+        
+        <thead>
+            <tr>
+                <th>S</th>
+                <th>M</th>
+                <th>T</th>
+                <th>W</th>
+                <th>T</th>
+                <th>F</th>
+                <th>S</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="3"></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><a href="#">5</a></td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td><a href="#">12</a> </td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td><a href="#">19</a></td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td><a href="#">26</a></td>
+                <td id="today">27</td>
+                <td colspan="5"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"><a href="#" id="prev">&lt &lt Jan</a></td>
+                <td></td>
+                <td colspan="3" align="right" id="next"><a href="#">Mar &gt &gt</a></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <div>
+        <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+            <fieldset>
+                <legend>
+                    Meeting Details
+                </legend>
+                <label for="">Client Name: </label>
+                <p><input type="text" name="client" placeholder="Enter Name"></p>
+    
+                <p><label for="cb">First Meeting?</label>
+                <input type="checkbox" name="first" id="cb"></p>
+    
+                <p><label for="rb">Client Type:</label>
+                <p><input type="radio" name="type" id="rb" value="School">School
+                <input type="radio" name="type" id="rb" value="College">College
+                <input type="radio" name="type" id="rb" value="University">University
+                </p></p>
+                <p><label for="today">Meeting Date</label>
+                <input type="date" name="date">
+                </p>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+<script type="text/javascript" src="script/lab5-2.js"></script>
+</body>
+</html>
